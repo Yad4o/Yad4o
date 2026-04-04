@@ -42,6 +42,7 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-3E7BFE?style=flat-square&logo=webgl&logoColor=white)
 
 **Infra & Data**
 
@@ -49,6 +50,7 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Alembic](https://img.shields.io/badge/Alembic-4A90D9?style=flat-square&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
 
 **ML & Vision**
 
