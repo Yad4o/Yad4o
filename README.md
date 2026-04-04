@@ -1,6 +1,6 @@
 <div align="center">
 
-# Om Yadav
+# Om Yadao
 
 **AI/ML Intern @ Kemuri Technology** · 3rd Year AI & Data Science · Pune, Maharashtra 🇮🇳
 
