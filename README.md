@@ -67,7 +67,7 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 ## Projects
 
 ### 🧠 [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
-> Production-grade multi-agent orchestration system · *@ Kemuri Technology*
+> Production-grade multi-agent orchestration system 
 
 LangGraph-powered agent workflows with stateful execution graphs, Celery + Redis for distributed async task queues, FastAPI backend with JWT auth and PostgreSQL (Neon) persistence, and a React 18 + TypeScript frontend. Full PR-gated development with severity-tiered code review.
 
