@@ -153,11 +153,10 @@ Immersive 3D starfield and nebula scenes with Three.js + react-three-fiber, GSAP
 
 <div align="center">
 
-![Om's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yad4o&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yad4o&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
+
+![Om's Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yad4o&theme=github_dark)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yad4o&theme=github_dark)
 
 </div>
 
