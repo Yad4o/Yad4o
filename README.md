@@ -18,6 +18,15 @@ I'm a 3rd year AI & Data Science student building real production systems at Kem
 
 I care a lot about clean architecture, TDD, and code that holds up under real review. Currently leading the MAP project — a full multi-agent AI automation platform — while doing deep PR reviews across the team's feature branches.
 
+---
+
+## Currently Building
+
+| Project | What | Status |
+|---------|------|--------|
+| 🎓 [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | Phase 1 |
+| 🤖 [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform | Active |
+| 🧠 [Shawty](https://github.com/Yad4o/Shawty) | Personal AI voice assistant with memory | Early stage |
 
 ---
 
@@ -68,8 +77,8 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 
 ## Projects
 
-### 🧠 [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
-> Production-grade multi-agent orchestration system 
+### 🤖 [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
+> Production-grade multi-agent orchestration system
 
 LangGraph-powered agent workflows with stateful execution graphs, Celery + Redis for distributed async task queues, FastAPI backend with JWT auth and PostgreSQL (Neon) persistence, and a React 18 + TypeScript frontend. Full PR-gated development with severity-tiered code review.
 
@@ -77,7 +86,7 @@ LangGraph-powered agent workflows with stateful execution graphs, Celery + Redis
 
 ---
 
-### 🤖 [SRS — Automated Customer Support Resolution](https://github.com/Yad4o/SRS)
+### 📮 [SRS — Automated Customer Support Resolution](https://github.com/Yad4o/SRS)
 > Enterprise-grade AI backend for intelligent ticket classification & resolution
 
 Confidence-based decision engine that auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses proven solutions from resolved ticket history. JWT auth with full RBAC (user / agent / admin), bcrypt hashing, and a clean layered architecture — API → Service → ORM → DB.
@@ -86,7 +95,25 @@ Confidence-based decision engine that auto-resolves tickets (≥ 0.75 threshold)
 
 ---
 
-### 🧾 [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
+### 🎓 [College Event & Club System](https://github.com/Yad4o/college-event-system)
+> Campus-wide platform for clubs, events, attendance, and certificates
+
+Full backend for managing college clubs (membership, recruitment drives), events (RSVP, waitlist, QR attendance), certificate generation (PDF + verification URL), budgets, sponsors, and real-time notifications. Built with a 6-person team across 10 phases.
+
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `Celery` `Redis` `WeasyPrint` `QR Code` `React 18`
+
+---
+
+### 🖥️ [EmPay HRMS](https://github.com/Yad4o/empay-hrms)
+> Smart HR management system with payroll, attendance, and leave management
+
+Full-stack HRMS with role-based access (employee, HR, payroll, admin), monthly payslip generation, leave balance tracking, attendance management, and CSV report exports. Clean white/teal UI with chart dashboards.
+
+`FastAPI` `Python` `SQLAlchemy` `PostgreSQL` `JavaScript` `Chart.js`
+
+---
+
+### 🌐 [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
 > Full-stack, multi-tenant expense automation with OCR receipt scanning
 
 Automates expense tracking, receipt scanning via OCR, and multi-step approval workflows across tenants. FastAPI backend, PostgreSQL, React frontend — built fast, built properly.
@@ -104,7 +131,7 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 
 ---
 
-### 🕺 [Human Action Recognition](https://github.com/Yad4o/Human-Action-Recognition)
+### 🏃 [Human Action Recognition](https://github.com/Yad4o/Human-Action-Recognition)
 > Deep learning pipeline for real-time human action detection
 
 CNN-based action classification using OpenCV for video frame extraction and preprocessing. Trained on benchmark action datasets with real-time inference support.
@@ -113,8 +140,8 @@ CNN-based action classification using OpenCV for video frame extraction and prep
 
 ---
 
-### 🔭 [portfolio-web](https://yad4o.github.io/portfolio-web/)
-> Deep-space aesthetic portfolio · [Live →](https://yad4o.github.io/portfolio-web/)
+### 🌌 [portfolio-web](https://yad4o.github.io/portfolio-web/)
+> Deep-space aesthetic portfolio · [Live ↗](https://yad4o.github.io/portfolio-web/)
 
 Immersive 3D starfield and nebula scenes with Three.js + react-three-fiber, GSAP + Lenis for smooth scroll animations, fully typed React 18 + TypeScript + Vite. Built to feel like a journey through the cosmos.
 
@@ -122,21 +149,18 @@ Immersive 3D starfield and nebula scenes with Three.js + react-three-fiber, GSAP
 
 ---
 
-
 ## Stats
- 
+
 <div align="center">
- 
-![Commits](https://img.shields.io/badge/Commits_%28last_year%29-300+-818cf8?style=for-the-badge)
-![PRs](https://img.shields.io/badge/Pull_Requests-44+-a78bfa?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Stars_Earned-20+-4ade80?style=for-the-badge)
-![Repos](https://img.shields.io/badge/Public_Repos-9+-38bdf8?style=for-the-badge)
- 
-![Python](https://img.shields.io/badge/Python-Most_Used-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-2nd-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-3rd-264de4?style=flat-square&logo=css3&logoColor=white)
- 
+
+![Om's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yad4o&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yad4o&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
+
 </div>
+
 ---
 
 ## Highlights
