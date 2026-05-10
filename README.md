@@ -16,7 +16,7 @@
 
 I'm a 3rd year AI & Data Science student building real production systems at Kemuri Technology. My work spans multi-agent orchestration, computer vision, NLP backends, and immersive 3D frontends — the kind of stuff that actually ships and runs in production, not just Jupyter notebooks.
 
-I care a lot about clean architecture, TDD, and code that holds up under real review. Currently leading the MAP project — a full multi-agent AI automation platform — while doing deep PR reviews across the team's feature branches.
+I care a lot about clean architecture, TDD, and code that holds up under real review. Currently leading the College Event & Club System — a full campus management platform built with a 6-person team — while doing deep PR reviews across the team's feature branches.
 
 ---
 
@@ -156,7 +156,7 @@ Immersive 3D starfield and nebula scenes with Three.js + react-three-fiber, GSAP
 ![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
 
 ![Om's Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yad4o&theme=github_dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yad4o&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&hide=html,css,scss,shell,makefile,dockerfile)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yad4o&theme=github_dark)
 
 </div>
 
