@@ -24,9 +24,9 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 
 | Project | What | Status |
 |---------|------|--------|
-| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | (https://college-event-system-mu.vercel.app/) |
+| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | [Live](https://college-event-system-mu.vercel.app/) |
 | [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform | Active |
-| [Shawty](https://github.com/Yad4o/Shawty) | Personal AI voice assistant with memory | Early stage |
+| [Shawty](https://github.com/Yad4o/Shawty) | Local-first autonomous coding agent — Ollama, agent loop, tool-calling, sandboxed execution | 🚧 Building |
 
 ---
 
@@ -95,6 +95,15 @@ Confidence-based decision engine that auto-resolves tickets (>= 0.75 threshold) 
 
 ---
 
+### [CCS — Companions Chat System](https://github.com/Yad4o/CCS)
+> AI companion system with persistent memory & semantic retrieval
+
+FastAPI backend with two distinct AI personalities powered by the Claude API, JWT auth, and a memory layer with importance-scored, semantically-searched context for retrieval-augmented personalization across conversations.
+
+`FastAPI` `Claude API` `RAG` `Semantic Search` `PostgreSQL` `JWT` `pytest`
+
+---
+
 ### [College Event & Club System](https://github.com/Yad4o/college-event-system)
 > Campus-wide platform for clubs, events, attendance, and certificates
 
@@ -137,6 +146,15 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 CNN-based action classification using OpenCV for video frame extraction and preprocessing. Trained on benchmark action datasets with real-time inference support.
 
 `Python` `TensorFlow` `CNN` `OpenCV` `Jupyter`
+
+---
+
+### [Deepfake Detection API](https://github.com/Yad4o/deepfake-detection-api)
+> Deployed CV model with explainability
+
+FastAPI service serving an EfficientNet-B4 deepfake classifier, with GradCAM-based visual explanations for model decisions and a React + TypeScript frontend.
+
+`FastAPI` `EfficientNet` `GradCAM` `Explainable AI` `PyTorch` `React`
 
 ---
 
