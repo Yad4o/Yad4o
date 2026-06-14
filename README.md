@@ -14,9 +14,22 @@
 
 ## About
 
-I'm a 3rd year AI & Data Science student building real production systems at Kemuri Technology. My work spans multi-agent orchestration, computer vision, NLP backends, and immersive 3D frontends — the kind of stuff that actually ships and runs in production, not just Jupyter notebooks.
+I'm a 3rd year AI & Data Science student building real production systems at Kemuri Technology. My work spans multi-agent orchestration, RAG pipelines, LLM applications, computer vision, and full-stack AI backends — the kind of stuff that actually ships and runs in production, not just Jupyter notebooks.
 
 I care a lot about clean architecture, TDD, and code that holds up under real review. Currently leading the College Event & Club System — a full campus management platform built with a 6-person team — while doing deep PR reviews across the team's feature branches.
+
+---
+
+## What I Specialize In
+
+| Domain | What I Build |
+|--------|-------------|
+| **LLM Applications** | Multi-agent systems, autonomous coding agents, AI companions with persistent memory |
+| **RAG Systems** | FAISS/Chroma vector stores, semantic retrieval, confidence-scored decision engines |
+| **AI Agents** | LangGraph stateful graphs, ReAct loops, tool-calling, agent orchestration pipelines |
+| **APIs & Backends** | FastAPI, async Python, JWT auth, Pydantic, PostgreSQL, Celery + Redis |
+| **Deployment** | Docker Compose, BentoML local inference, Nginx reverse proxy, Alembic migrations |
+| **Evaluation** | Confidence thresholds, quality gates, Analyzer agents, structured output validation |
 
 ---
 
@@ -24,72 +37,35 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 
 | Project | What | Status |
 |---------|------|--------|
-| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | [Live](https://college-event-system-mu.vercel.app/) |
-| [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform | Active |
+| [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform — LangGraph, FastAPI, Celery, RAG, Docker | 🔨 Active |
 | [Shawty](https://github.com/Yad4o/Shawty) | Local-first autonomous coding agent — Ollama, agent loop, tool-calling, sandboxed execution | 🚧 Building |
+| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | [Live](https://college-event-system-mu.vercel.app/) |
 
 ---
 
-## Tech Stack
-
-**Backend & AI**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
-![BentoML](https://img.shields.io/badge/BentoML-000000?style=flat-square&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CC2927?style=flat-square&logo=python&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-3E7BFE?style=flat-square&logo=webgl&logoColor=white)
-
-**Infra & Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-4A90D9?style=flat-square&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
-
-**ML & Vision**
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-**Tooling**
-
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-
----
-
-## Projects
+## Strongest Projects
 
 ### [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
-> Production-grade multi-agent orchestration system
+> A production-grade distributed system that automates complex, multi-step workflows by decomposing them into discrete subtasks executed by specialized AI agents.
 
-LangGraph-powered agent workflows with stateful execution graphs, Celery + Redis for distributed async task queues, FastAPI backend with JWT auth and PostgreSQL (Neon) persistence, and a React 18 + TypeScript frontend. Full PR-gated development with severity-tiered code review.
+**What makes it serious:**
+- **Multi-agent pipeline**: Planner → Executor → Analyzer → Memory, orchestrated with LangGraph stateful graphs and checkpointing
+- **RAG memory layer**: FAISS/Chroma vector store per user — embeds task summaries and retrieves relevant context before each execution step
+- **ReAct executor loop**: Reason → Act → Observe with real tools: `WebSearchTool`, `CodeInterpreterTool`, `FileReaderTool`, `APICallTool`, `MemoryRetrievalTool`
+- **Evaluation pipeline**: Analyzer Agent validates JSON schema conformance, scores confidence (0.0–1.0), triggers re-execution for steps below 0.7 threshold
+- **Production infra**: FastAPI gateway + Celery worker pool on Redis queues, PostgreSQL persistence via SQLAlchemy async ORM, Alembic migrations, Docker Compose orchestration
+- **Resilience**: Circuit breaker over all LLM API calls — auto-falls back to BentoML-served Mistral-7B on HTTP 429/503/timeout
+- **Auth**: RS256 JWT (15-min access + 30-day refresh), token revocation via Redis SET, RBAC (USER / ADMIN / SYSTEM)
+- **Observability**: Structured JSON logging (structlog), Prometheus + Grafana metrics, per-agent step records and trace visualization
 
-`LangGraph` `LangChain` `FastAPI` `Celery` `Redis` `PostgreSQL` `React 18` `TypeScript` `Docker` `BentoML`
+`LangGraph` `LangChain` `FastAPI` `Celery` `Redis` `PostgreSQL` `FAISS` `BentoML` `Docker` `React 18` `TypeScript`
 
 ---
 
 ### [SRS — Automated Customer Support Resolution](https://github.com/Yad4o/SRS)
 > Enterprise-grade AI backend for intelligent ticket classification & resolution
 
-Confidence-based decision engine that auto-resolves tickets (>= 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses proven solutions from resolved ticket history. JWT auth with full RBAC (user / agent / admin), bcrypt hashing, and a clean layered architecture — API → Service → ORM → DB.
+Confidence-based decision engine that auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses proven solutions from resolved ticket history. JWT auth with full RBAC (user / agent / admin), bcrypt hashing, and a clean layered architecture — API → Service → ORM → DB.
 
 `FastAPI` `Python` `SQLAlchemy` `Alembic` `NLP` `TF-IDF` `JWT` `pytest` `PostgreSQL`
 
@@ -104,48 +80,12 @@ FastAPI backend with two distinct AI personalities powered by the Claude API, JW
 
 ---
 
-### [College Event & Club System](https://github.com/Yad4o/college-event-system)
-> Campus-wide platform for clubs, events, attendance, and certificates
+### [Shawty — Autonomous Coding Agent](https://github.com/Yad4o/Shawty)
+> Local-first autonomous coding agent (Claude Code / OpenDevin-style) on Ollama
 
-Full backend for managing college clubs (membership, recruitment drives), events (RSVP, waitlist, QR attendance), certificate generation (PDF + verification URL), budgets, sponsors, and real-time notifications. Built with a 6-person team across 10 phases.
+Agent loop with tool-calling, Docker-sandboxed code execution, FAISS memory for context retrieval, FastAPI backend + React frontend. Runs fully locally on qwen2.5-coder.
 
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `Celery` `Redis` `WeasyPrint` `QR Code` `React 18`
-
----
-
-### [EmPay HRMS](https://github.com/Yad4o/empay-hrms)
-> Smart HR management system with payroll, attendance, and leave management
-
-Full-stack HRMS with role-based access (employee, HR, payroll, admin), monthly payslip generation, leave balance tracking, attendance management, and CSV report exports. Clean white/teal UI with chart dashboards.
-
-`FastAPI` `Python` `SQLAlchemy` `PostgreSQL` `JavaScript` `Chart.js`
-
----
-
-### [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
-> Full-stack, multi-tenant expense automation with OCR receipt scanning
-
-Automates expense tracking, receipt scanning via OCR, and multi-step approval workflows across tenants. FastAPI backend, PostgreSQL, React frontend — built fast, built properly.
-
-`FastAPI` `PostgreSQL` `OCR` `React` `Python` `Multi-tenant`
-
----
-
-### [Aesthetic 3D Image Describer](https://github.com/Yad4o/aesthetic-3d-image-describer)
-> AI-powered image description with an immersive 3D visual interface
-
-Combines vision AI with a Three.js-powered 3D frontend to describe images in an aesthetically rich, interactive UI. TypeScript throughout.
-
-`TypeScript` `Three.js` `Vision AI`
-
----
-
-### [Human Action Recognition](https://github.com/Yad4o/Human-Action-Recognition)
-> Deep learning pipeline for real-time human action detection
-
-CNN-based action classification using OpenCV for video frame extraction and preprocessing. Trained on benchmark action datasets with real-time inference support.
-
-`Python` `TensorFlow` `CNN` `OpenCV` `Jupyter`
+`Ollama` `LangChain` `FAISS` `Docker` `FastAPI` `React` `Python`
 
 ---
 
@@ -158,12 +98,99 @@ FastAPI service serving an EfficientNet-B4 deepfake classifier, with GradCAM-bas
 
 ---
 
-### [portfolio-web](https://yad4o.github.io/portfolio-web/)
-> Deep-space aesthetic portfolio · [Live](https://yad4o.github.io/portfolio-web/)
+### [College Event & Club System](https://github.com/Yad4o/college-event-system)
+> Campus-wide platform for clubs, events, attendance, and certificates · [Live](https://college-event-system-mu.vercel.app/)
 
-Immersive 3D starfield and nebula scenes with Three.js + react-three-fiber, GSAP + Lenis for smooth scroll animations, fully typed React 18 + TypeScript + Vite. Built to feel like a journey through the cosmos.
+Full backend for managing college clubs (membership, recruitment drives), events (RSVP, waitlist, QR attendance), certificate generation (PDF + verification URL), budgets, sponsors, and real-time notifications. Built with a 6-person team across 10 phases.
 
-`Three.js` `react-three-fiber` `GSAP` `Lenis` `React 18` `TypeScript` `Vite` `Tailwind`
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `Celery` `Redis` `WeasyPrint` `QR Code` `React 18`
+
+---
+
+### [EmPay HRMS](https://github.com/Yad4o/empay-hrms)
+> Smart HR management system with payroll, attendance, and leave management
+
+Full-stack HRMS with role-based access (employee, HR, payroll, admin), monthly payslip generation, leave balance tracking, attendance management, and CSV report exports.
+
+`FastAPI` `Python` `SQLAlchemy` `PostgreSQL` `JavaScript` `Chart.js`
+
+---
+
+### [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
+> Full-stack, multi-tenant expense automation with OCR receipt scanning
+
+Automates expense tracking, receipt scanning via OCR, and multi-step approval workflows across tenants. FastAPI backend, PostgreSQL, React frontend.
+
+`FastAPI` `PostgreSQL` `OCR` `React` `Python` `Multi-tenant`
+
+---
+
+### [Human Action Recognition](https://github.com/Yad4o/Human-Action-Recognition)
+> Deep learning pipeline for real-time human action detection
+
+CNN-based action classification using OpenCV for video frame extraction and preprocessing. Trained on benchmark action datasets with real-time inference support.
+
+`Python` `TensorFlow` `CNN` `OpenCV` `Jupyter`
+
+---
+
+### [Aesthetic 3D Image Describer](https://github.com/Yad4o/aesthetic-3d-image-describer)
+> AI-powered image description with an immersive 3D visual interface
+
+Combines vision AI with a Three.js-powered 3D frontend to describe images in an aesthetically rich, interactive UI. TypeScript throughout.
+
+`TypeScript` `Three.js` `Vision AI`
+
+---
+
+## Tech Stack
+
+**AI & Agents**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white)
+![BentoML](https://img.shields.io/badge/BentoML-000000?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+
+**Backend & APIs**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CC2927?style=flat-square&logo=python&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+**Infra & Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-4A90D9?style=flat-square&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
+
+**ML & Vision**
+
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+**Tooling**
+
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 ---
 
