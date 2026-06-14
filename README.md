@@ -24,7 +24,7 @@ I care a lot about clean architecture, TDD, and code that holds up under real re
 
 | Project | What | Status |
 |---------|------|--------|
-| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | Phase 1 |
+| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | (https://college-event-system-mu.vercel.app/) |
 | [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform | Active |
 | [Shawty](https://github.com/Yad4o/Shawty) | Personal AI voice assistant with memory | Early stage |
 
