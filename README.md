@@ -1,8 +1,12 @@
 <div align="center">
 
-# Om Yadao
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d1117&height=120&section=header&text=Om%20Yadao&fontSize=40&fontColor=58a6ff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-**AI/ML Intern @ Kemuri Technology** · 3rd Year AI & Data Science · Pune, Maharashtra
+# Om Yadao · Yad4o
+
+**Building production AI systems @ Kemuri Technology**
+
+Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM applications
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yad4o.github.io/portfolio-web/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-yadao-5359791a9)
@@ -14,132 +18,80 @@
 
 ## About
 
-I'm a 3rd year AI & Data Science student building real production systems at Kemuri Technology. My work spans multi-agent orchestration, RAG pipelines, LLM applications, computer vision, and full-stack AI backends — the kind of stuff that actually ships and runs in production, not just Jupyter notebooks.
+AI/ML Intern at Kemuri Technology and 3rd-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
 
-I care a lot about clean architecture, TDD, and code that holds up under real review. Currently leading the College Event & Club System — a full campus management platform built with a 6-person team — while doing deep PR reviews across the team's feature branches.
+Currently leading [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — coordinating a team of four through code review across 8+ phases. Also building the COE-AI marine garbage classification service at Kemuri, integrating GPT-4o mini vision with production CMS pipelines.
 
----
-
-## What I Specialize In
-
-| Domain | What I Build |
-|--------|-------------|
-| **LLM Applications** | Multi-agent systems, autonomous coding agents, AI companions with persistent memory |
-| **RAG Systems** | FAISS/Chroma vector stores, semantic retrieval, confidence-scored decision engines |
-| **AI Agents** | LangGraph stateful graphs, ReAct loops, tool-calling, agent orchestration pipelines |
-| **APIs & Backends** | FastAPI, async Python, JWT auth, Pydantic, PostgreSQL, Celery + Redis |
-| **Deployment** | Docker Compose, BentoML local inference, Nginx reverse proxy, Alembic migrations |
-| **Evaluation** | Confidence thresholds, quality gates, Analyzer agents, structured output validation |
+I care about clean architecture, TDD, zero-ambiguity code review, and systems that hold up under real load.
 
 ---
 
-## Currently Building
+## What I Build
 
-| Project | What | Status |
-|---------|------|--------|
-| [MAP](https://github.com/Yad4o/MAP) | Multi-agent AI automation platform — LangGraph, FastAPI, Celery, RAG, Docker | 🔨 Active |
-| [Shawty](https://github.com/Yad4o/Shawty) | Local-first autonomous coding agent — Ollama, agent loop, tool-calling, sandboxed execution | 🚧 Building |
-| [college-event-system](https://github.com/Yad4o/college-event-system) | Campus platform — clubs, events, RSVP, certificates, budgets | [Live](https://college-event-system-mu.vercel.app/) |
+| Domain | Stack & Scope |
+|--------|--------------|
+| **Multi-Agent Systems** | LangGraph stateful graphs, ReAct loops, tool-calling, agent orchestration, circuit breakers |
+| **RAG Pipelines** | FAISS/Chroma vector stores, semantic retrieval, confidence-scored decision engines |
+| **Vision AI** | EfficientNet, GradCAM explainability, GPT-4o mini vision, OCR pipelines, deepfake detection |
+| **Backends & APIs** | FastAPI, async Python, JWT RS256, Pydantic, SQLAlchemy, Celery + Redis, Alembic |
+| **Infra & Ops** | Docker Compose, Nginx, Prometheus + Grafana, Neon PostgreSQL, Upstash Redis, BentoML |
+| **Frontend** | React 18, TypeScript, Three.js, react-three-fiber, GSAP, Tailwind, WebSocket real-time |
 
 ---
 
-## Strongest Projects
+## Flagship Projects
 
 ### [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
-> A production-grade distributed system that automates complex, multi-step workflows by decomposing them into discrete subtasks executed by specialized AI agents.
+> Production-grade distributed system · LangGraph · FastAPI · Celery · PostgreSQL · Redis
 
-**What makes it serious:**
-- **Multi-agent pipeline**: Planner → Executor → Analyzer → Memory, orchestrated with LangGraph stateful graphs and checkpointing
-- **RAG memory layer**: FAISS/Chroma vector store per user — embeds task summaries and retrieves relevant context before each execution step
-- **ReAct executor loop**: Reason → Act → Observe with real tools: `WebSearchTool`, `CodeInterpreterTool`, `FileReaderTool`, `APICallTool`, `MemoryRetrievalTool`
-- **Evaluation pipeline**: Analyzer Agent validates JSON schema conformance, scores confidence (0.0–1.0), triggers re-execution for steps below 0.7 threshold
-- **Production infra**: FastAPI gateway + Celery worker pool on Redis queues, PostgreSQL persistence via SQLAlchemy async ORM, Alembic migrations, Docker Compose orchestration
-- **Resilience**: Circuit breaker over all LLM API calls — auto-falls back to BentoML-served Mistral-7B on HTTP 429/503/timeout
-- **Auth**: RS256 JWT (15-min access + 30-day refresh), token revocation via Redis SET, RBAC (USER / ADMIN / SYSTEM)
-- **Observability**: Structured JSON logging (structlog), Prometheus + Grafana metrics, per-agent step records and trace visualization
+Planner → Executor → Analyzer → Memory pipeline orchestrated with LangGraph stateful graphs. FAISS/Chroma RAG memory per user, ReAct executor loop with 5 real tools, confidence-scored evaluation pipeline (re-executes below 0.7 threshold), circuit breaker over all LLM calls with BentoML-served Mistral-7B fallback, RS256 JWT with RBAC, Prometheus + Grafana observability.
 
-`LangGraph` `LangChain` `FastAPI` `Celery` `Redis` `PostgreSQL` `FAISS` `BentoML` `Docker` `React 18` `TypeScript`
+`LangGraph` `LangChain` `FastAPI` `Celery` `Redis` `PostgreSQL` `FAISS` `BentoML` `Docker` `React 18` `TypeScript` `Prometheus`
 
 ---
 
 ### [SRS — Automated Customer Support Resolution](https://github.com/Yad4o/SRS)
-> Enterprise-grade AI backend for intelligent ticket classification & resolution
+> Enterprise AI ticket system · 90%+ routing accuracy · FastAPI · PostgreSQL
 
-Confidence-based decision engine that auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses proven solutions from resolved ticket history. JWT auth with full RBAC (user / agent / admin), bcrypt hashing, and a clean layered architecture — API → Service → ORM → DB.
+Confidence-based decision engine auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses solutions from resolved ticket history. Full RBAC, bcrypt auth, layered architecture with pytest coverage.
 
-`FastAPI` `Python` `SQLAlchemy` `Alembic` `NLP` `TF-IDF` `JWT` `pytest` `PostgreSQL`
-
----
-
-### [CCS — Companions Chat System](https://github.com/Yad4o/CCS)
-> AI companion system with persistent memory & semantic retrieval
-
-FastAPI backend with two distinct AI personalities powered by the Claude API, JWT auth, and a memory layer with importance-scored, semantically-searched context for retrieval-augmented personalization across conversations.
-
-`FastAPI` `Claude API` `RAG` `Semantic Search` `PostgreSQL` `JWT` `pytest`
+`FastAPI` `Python` `SQLAlchemy` `NLP` `TF-IDF` `JWT` `PostgreSQL` `pytest`
 
 ---
 
 ### [Shawty — Autonomous Coding Agent](https://github.com/Yad4o/Shawty)
-> Local-first autonomous coding agent (Claude Code / OpenDevin-style) on Ollama
+> Local-first · Ollama · LangGraph · Docker sandboxed execution
 
-Agent loop with tool-calling, Docker-sandboxed code execution, FAISS memory for context retrieval, FastAPI backend + React frontend. Runs fully locally on qwen2.5-coder.
+Agent loop with tool-calling, Docker-sandboxed code execution, FAISS memory for context retrieval. Runs fully locally on qwen2.5-coder — zero cloud dependency.
 
 `Ollama` `LangChain` `FAISS` `Docker` `FastAPI` `React` `Python`
 
 ---
 
 ### [Deepfake Detection API](https://github.com/Yad4o/deepfake-detection-api)
-> Deployed CV model with explainability
+> EfficientNet-B4 · GradCAM explainability · FastAPI · PyTorch
 
-FastAPI service serving an EfficientNet-B4 deepfake classifier, with GradCAM-based visual explanations for model decisions and a React + TypeScript frontend.
+Production FastAPI service serving a deepfake classifier with GradCAM visual explanations per inference. React + TypeScript frontend for real-time results.
 
-`FastAPI` `EfficientNet` `GradCAM` `Explainable AI` `PyTorch` `React`
+`FastAPI` `EfficientNet-B4` `GradCAM` `PyTorch` `Explainable AI` `React 18` `TypeScript`
 
 ---
 
 ### [College Event & Club System](https://github.com/Yad4o/college-event-system)
-> Campus-wide platform for clubs, events, attendance, and certificates · [Live](https://college-event-system-mu.vercel.app/)
+> Campus platform · 10-phase build · FastAPI · WebSocket · Celery
 
-Full backend for managing college clubs (membership, recruitment drives), events (RSVP, waitlist, QR attendance), certificate generation (PDF + verification URL), budgets, sponsors, and real-time notifications. Built with a 6-person team across 10 phases.
+Full backend for clubs, events, RSVP, waitlists, QR attendance, PDF certificate generation, budgets, real-time WebSocket notifications, and admin panel. 10 phases, full test coverage.
 
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `Celery` `Redis` `WeasyPrint` `QR Code` `React 18`
-
----
-
-### [EmPay HRMS](https://github.com/Yad4o/empay-hrms)
-> Smart HR management system with payroll, attendance, and leave management
-
-Full-stack HRMS with role-based access (employee, HR, payroll, admin), monthly payslip generation, leave balance tracking, attendance management, and CSV report exports.
-
-`FastAPI` `Python` `SQLAlchemy` `PostgreSQL` `JavaScript` `Chart.js`
+`FastAPI` `PostgreSQL` `Redis` `Celery` `WebSocket` `React 18` `TypeScript` `Neon`
 
 ---
 
 ### [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
-> Full-stack, multi-tenant expense automation with OCR receipt scanning
+> Odoo × VIT Pune Hackathon · built in 8 hours · OCR · Multi-tenant
 
-Automates expense tracking, receipt scanning via OCR, and multi-step approval workflows across tenants. FastAPI backend, PostgreSQL, React frontend.
+Multi-tenant expense system with OCR receipt scanning, multi-step approval workflows, role-based access. Built under hackathon conditions, reached national finals.
 
 `FastAPI` `PostgreSQL` `OCR` `React` `Python` `Multi-tenant`
-
----
-
-### [Human Action Recognition](https://github.com/Yad4o/Human-Action-Recognition)
-> Deep learning pipeline for real-time human action detection
-
-CNN-based action classification using OpenCV for video frame extraction and preprocessing. Trained on benchmark action datasets with real-time inference support.
-
-`Python` `TensorFlow` `CNN` `OpenCV` `Jupyter`
-
----
-
-### [Aesthetic 3D Image Describer](https://github.com/Yad4o/aesthetic-3d-image-describer)
-> AI-powered image description with an immersive 3D visual interface
-
-Combines vision AI with a Three.js-powered 3D frontend to describe images in an aesthetically rich, interactive UI. TypeScript throughout.
-
-`TypeScript` `Three.js` `Vision AI`
 
 ---
 
@@ -175,16 +127,17 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-4A90D9?style=flat-square&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 **ML & Vision**
 
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
 
 **Tooling**
 
@@ -200,7 +153,7 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
 
-![Om's Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yad4o&theme=github_dark)
+![Om Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yad4o&theme=github_dark)
 ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yad4o&theme=github_dark)
 
 </div>
@@ -209,10 +162,10 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 
 ## Highlights
 
-- **Pull Shark x2** — PRs merged by others across team projects
-- **Pair Extraordinaire** — co-authored commits across the MAP team
-- **Odoo Hackathon 2026 Finalist** — competed in Odoo's national developer hackathon
-- **YOLO** — merged without review (we've all been there)
+- **Odoo × VIT Pune Hackathon Finalist** — national finals May 2026, prize pool ₹45,000
+- **Pull Shark ×2** — PRs merged by others across team projects
+- **Pair Extraordinaire** — co-authored commits across MAP team
+- **AI/ML Intern @ Kemuri Technology** — production COE-AI vision service, GPT-4o mini integration
 
 ---
 
@@ -223,12 +176,14 @@ Combines vision AI with a Three.js-powered 3D frontend to describe images in an 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-yadao-5359791a9)
 [![Portfolio](https://img.shields.io/badge/See_My_Work-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yad4o.github.io/portfolio-web/)
 
-*Open to collaborations, interesting problems, and internship referrals.*
+*Open to collaborations on multi-agent systems, AI backends, and interesting production problems.*
 
 </div>
 
 ---
 
 <div align="center">
-<sub>Building in public · Shipping in production · Pune → everywhere</sub>
+<sub>Building in production · Pune, Maharashtra · AI & Data Science 2026</sub>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d1117&height=80&section=footer" width="100%"/>
