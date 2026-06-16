@@ -9,7 +9,6 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yad4o.github.io/portfolio-web/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-yadao-5359791a9)
-[![GitHub followers](https://img.shields.io/github/followers/Yad4o?style=for-the-badge&color=181717&logo=github)](https://github.com/Yad4o)
 
 </div>
 
