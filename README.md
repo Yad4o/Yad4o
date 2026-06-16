@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d1117&height=120&section=header&text=Om%20Yadao&fontSize=40&fontColor=58a6ff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-# Om Yadao · Yad4o
 
 **Building production AI systems @ Kemuri Technology**
 
