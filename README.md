@@ -110,7 +110,7 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 
 <table>
   <tr>
-    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python"/><br>Python</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=py" width="48" height="48" alt="Python"/><br>Python</td>
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI"/><br>FastAPI</td>
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/><br>React</td>
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript"/><br>TypeScript</td>
@@ -132,6 +132,13 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV"/><br>OpenCV</td>
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5"/><br>HTML5</td>
     <td align="center" width="92"><img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3"/><br>CSS3</td>
+  </tr>
+  <tr>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite"/><br>Vite</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" alt="Prometheus"/><br>Prometheus</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" alt="Grafana"/><br>Grafana</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel"/><br>Vercel</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow"/><br>TensorFlow</td>
   </tr>
 </table>
 
@@ -155,19 +162,14 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 **Frontend**
 
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 **Infra & Data**
 
 ![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 
 **ML & Vision**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
 
 **Tooling**
@@ -204,11 +206,11 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 
 <div align="center">
 
-### 😂 Random Joke
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark)
+### Activity
 
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<a href="https://github.com/Yad4o">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yad4o&theme=github-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=58a6ff&area=true&area_color=58a6ff" alt="Om's contribution activity graph" />
+</a>
 
 </div>
 
