@@ -2,6 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d1117&height=120&section=header&text=Om%20Yadao&fontSize=40&fontColor=58a6ff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Production+AI+Systems.;Multi-Agent+Orchestration.;FastAPI+%2B+React+%2B+TypeScript.;Code.+Review.+Ship.+Repeat." alt="Typing SVG"/>
 
 **Building production AI systems @ Kemuri Technology**
 
@@ -10,7 +11,17 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yad4o.github.io/portfolio-web/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-yadao-5359791a9)
 
+<img src="https://komarev.com/ghpvc/?username=Yad4o&label=Profile%20views&color=58a6ff&style=flat" alt="Yad4o profile views" />
+
 </div>
+
+---
+
+- 🔭 Currently building **COE-AI marine garbage classification service** @ Kemuri Technology
+- 🛠️ Maintaining **MAP**, **SRS**, and **College Event System** — all shipped, now in upkeep mode
+- 🌱 Learning **LangGraph agent patterns** and contributing to **tortoise-orm**, **pydantic**, **rich**
+- 💬 Ask me about **multi-agent systems**, **FastAPI architecture**, or **PR review workflows**
+- ⚡ Fun fact: I review every PR on my team projects myself — zero-ambiguity code review is non-negotiable
 
 ---
 
@@ -18,7 +29,7 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 
 AI/ML Intern at Kemuri Technology and 3rd-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
 
-Currently leading [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — coordinating a team of four through code review across 8+ phases. Also building the COE-AI marine garbage classification service at Kemuri, integrating GPT-4o mini vision with production CMS pipelines.
+Shipped and now maintaining [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — led a team of four through code review across 8+ phases to completion. Also building the COE-AI marine garbage classification service at Kemuri, integrating GPT-4o mini vision with production CMS pipelines.
 
 I care about clean architecture, TDD, zero-ambiguity code review, and systems that hold up under real load.
 
@@ -40,25 +51,25 @@ I care about clean architecture, TDD, zero-ambiguity code review, and systems th
 ## Flagship Projects
 
 ### [MAP — Multi-Agent AI Automation Platform](https://github.com/Yad4o/MAP)
-> Production-grade distributed system · LangGraph · FastAPI · Celery · PostgreSQL · Redis
+> `✅ Completed — In Maintenance` · LangGraph · FastAPI · Celery · PostgreSQL · Redis
 
-Planner → Executor → Analyzer → Memory pipeline orchestrated with LangGraph stateful graphs. FAISS/Chroma RAG memory per user, ReAct executor loop with 5 real tools, confidence-scored evaluation pipeline (re-executes below 0.7 threshold), circuit breaker over all LLM calls with BentoML-served Mistral-7B fallback, RS256 JWT with RBAC, Prometheus + Grafana observability.
+Planner → Executor → Analyzer → Memory pipeline orchestrated with LangGraph stateful graphs. FAISS/Chroma RAG memory per user, ReAct executor loop with 5 real tools, confidence-scored evaluation pipeline (re-executes below 0.7 threshold), circuit breaker over all LLM calls with BentoML-served Mistral-7B fallback, RS256 JWT with RBAC, Prometheus + Grafana observability. All phases (0–4) shipped; now maintained through periodic updates.
 
 `LangGraph` `LangChain` `FastAPI` `Celery` `Redis` `PostgreSQL` `FAISS` `BentoML` `Docker` `React 18` `TypeScript` `Prometheus`
 
 ---
 
 ### [SRS — Automated Customer Support Resolution](https://github.com/Yad4o/SRS)
-> Enterprise AI ticket system · 90%+ routing accuracy · FastAPI · PostgreSQL
+> `✅ Completed — In Maintenance` · 90%+ routing accuracy · FastAPI · PostgreSQL
 
-Confidence-based decision engine auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses solutions from resolved ticket history. Full RBAC, bcrypt auth, layered architecture with pytest coverage.
+Confidence-based decision engine auto-resolves tickets (≥ 0.75 threshold) or escalates to human agents. TF-IDF similarity search reuses solutions from resolved ticket history. Full RBAC, bcrypt auth, layered architecture with pytest coverage. Deployed on Render + Vercel; now in maintenance with periodic fixes and updates.
 
 `FastAPI` `Python` `SQLAlchemy` `NLP` `TF-IDF` `JWT` `PostgreSQL` `pytest`
 
 ---
 
 ### [Shawty — Autonomous Coding Agent](https://github.com/Yad4o/Shawty)
-> Local-first · Ollama · LangGraph · Docker sandboxed execution
+> `✅ Completed — In Maintenance` · Local-first · Ollama · LangGraph · Docker sandboxed execution
 
 Agent loop with tool-calling, Docker-sandboxed code execution, FAISS memory for context retrieval. Runs fully locally on qwen2.5-coder — zero cloud dependency.
 
@@ -67,7 +78,7 @@ Agent loop with tool-calling, Docker-sandboxed code execution, FAISS memory for 
 ---
 
 ### [Deepfake Detection API](https://github.com/Yad4o/deepfake-detection-api)
-> EfficientNet-B4 · GradCAM explainability · FastAPI · PyTorch
+> `✅ Completed — In Maintenance` · EfficientNet-B4 · GradCAM explainability · FastAPI · PyTorch
 
 Production FastAPI service serving a deepfake classifier with GradCAM visual explanations per inference. React + TypeScript frontend for real-time results.
 
@@ -76,16 +87,16 @@ Production FastAPI service serving a deepfake classifier with GradCAM visual exp
 ---
 
 ### [College Event & Club System](https://github.com/Yad4o/college-event-system)
-> Campus platform · 10-phase build · FastAPI · WebSocket · Celery
+> `✅ Completed — In Maintenance` · 10-phase build · FastAPI · WebSocket · Celery
 
-Full backend for clubs, events, RSVP, waitlists, QR attendance, PDF certificate generation, budgets, real-time WebSocket notifications, and admin panel. 10 phases, full test coverage.
+Full backend for clubs, events, RSVP, waitlists, QR attendance, PDF certificate generation, budgets, real-time WebSocket notifications, and admin panel. All 10 phases shipped with full test coverage; now in upkeep mode.
 
 `FastAPI` `PostgreSQL` `Redis` `Celery` `WebSocket` `React 18` `TypeScript` `Neon`
 
 ---
 
 ### [Reimbursement Management System](https://github.com/Yad4o/reimbursement-system)
-> Odoo × VIT Pune Hackathon · built in 8 hours · OCR · Multi-tenant
+> `✅ Completed` · Odoo × VIT Pune Hackathon 2026 Finalist · built in 8 hours · OCR · Multi-tenant
 
 Multi-tenant expense system with OCR receipt scanning, multi-step approval workflows, role-based access. Built under hackathon conditions, reached national finals.
 
@@ -94,6 +105,37 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 ---
 
 ## Tech Stack
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python"/><br>Python</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI"/><br>FastAPI</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/><br>React</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript"/><br>TypeScript</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript"/><br>JavaScript</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL"/><br>PostgreSQL</td>
+  </tr>
+  <tr>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis"/><br>Redis</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"/><br>Docker</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx"/><br>Nginx</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git"/><br>Git</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"/><br>GitHub</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code"/><br>VS Code</td>
+  </tr>
+  <tr>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind"/><br>Tailwind</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js"/><br>Three.js</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch"/><br>PyTorch</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV"/><br>OpenCV</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5"/><br>HTML5</td>
+    <td align="center" width="92"><img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3"/><br>CSS3</td>
+  </tr>
+</table>
+
+</div>
 
 **AI & Agents**
 
@@ -105,49 +147,41 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 
 **Backend & APIs**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CC2927?style=flat-square&logo=python&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-4B8BBE?style=flat-square&logoColor=white)
 
 **Frontend**
 
-![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 **Infra & Data**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00D9FF?style=flat-square&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 
 **ML & Vision**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
 
 **Tooling**
 
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![ClickUp](https://img.shields.io/badge/ClickUp-7B68EE?style=flat-square&logo=clickup&logoColor=white)
 
 ---
 
 ## Stats
 
 <div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=Yad4o&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" />
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
 
@@ -160,10 +194,23 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 
 ## Highlights
 
-- **Odoo × VIT Pune Hackathon Finalist** — national finals May 2026, prize pool ₹45,000
+- **Odoo × VIT Pune Hackathon 2026 Finalist** — national finals, prize pool ₹45,000, built in an 8-hour sprint
 - **Pull Shark ×2** — PRs merged by others across team projects
 - **Pair Extraordinaire** — co-authored commits across MAP team
 - **AI/ML Intern @ Kemuri Technology** — production COE-AI vision service, GPT-4o mini integration
+- **Sole PR reviewer** across 2 shipped team platforms (MAP + College Event System) — 5-person team, all phases
+
+---
+
+<div align="center">
+
+### 😂 Random Joke
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark)
+
+### ✍️ Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
+</div>
 
 ---
 
