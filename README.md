@@ -183,8 +183,6 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 
 <div align="center">
 
-<img src="https://github-trophies.vercel.app/?username=Yad4o&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" />
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Yad4o&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
 
 ![Om Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yad4o&theme=github_dark)
