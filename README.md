@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Production+AI+Systems.;Multi-Agent+Orchestration.;FastAPI+%2B+React+%2B+TypeScript.;Code.+Review.+Ship.+Repeat." alt="Typing SVG"/>
 
-**Building production AI systems @ Kemuri Technology**
+**Building production AI systems**
 
 Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM applications
 
@@ -17,8 +17,8 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 
 ---
 
-- 🔭 Currently building **COE-AI marine garbage classification service** @ Kemuri Technology
 - 🛠️ Maintaining **MAP**, **SRS**, and **College Event System** — all shipped, now in upkeep mode
+- 🚀 Worked on **COE-AI marine garbage classification service** as AI/ML Intern @ Kemuri Technology
 - 🌱 Learning **LangGraph agent patterns** and contributing to **tortoise-orm**, **pydantic**, **rich**
 - 💬 Ask me about **multi-agent systems**, **FastAPI architecture**, or **PR review workflows**
 - ⚡ Fun fact: I review every PR on my team projects myself — zero-ambiguity code review is non-negotiable
@@ -27,9 +27,9 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 
 ## About
 
-AI/ML Intern at Kemuri Technology and 3rd-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
+3rd-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
 
-Shipped and now maintaining [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — led a team of four through code review across 8+ phases to completion. Also building the COE-AI marine garbage classification service at Kemuri, integrating GPT-4o mini vision with production CMS pipelines.
+Shipped and now maintaining [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — led a team of four through code review across 8+ phases to completion. Previously worked as an AI/ML Intern at Kemuri Technology, building the COE-AI marine garbage classification service integrating GPT-4o mini vision with production CMS pipelines.
 
 I care about clean architecture, TDD, zero-ambiguity code review, and systems that hold up under real load.
 
@@ -197,7 +197,7 @@ Multi-tenant expense system with OCR receipt scanning, multi-step approval workf
 - **Odoo × VIT Pune Hackathon 2026 Finalist** — national finals, prize pool ₹45,000, built in an 8-hour sprint
 - **Pull Shark ×2** — PRs merged by others across team projects
 - **Pair Extraordinaire** — co-authored commits across MAP team
-- **AI/ML Intern @ Kemuri Technology** — production COE-AI vision service, GPT-4o mini integration
+- **Former AI/ML Intern @ Kemuri Technology** — production COE-AI vision service, GPT-4o mini integration
 - **Sole PR reviewer** across 2 shipped team platforms (MAP + College Event System) — 5-person team, all phases
 
 ---
