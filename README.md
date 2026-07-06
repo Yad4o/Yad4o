@@ -27,7 +27,7 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 
 ## About
 
-3rd-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
+final-year AI & Data Science student. I build production-grade AI systems — not notebooks, not demos. Multi-agent orchestration, vision classification pipelines, distributed task systems, and real backends that ship and stay up.
 
 Shipped and now maintaining [MAP](https://github.com/Yad4o/MAP), a multi-agent AI automation platform with LangGraph orchestration, circuit breakers, Prometheus observability, and RBAC — led a team of four through code review across 8+ phases to completion. Previously worked as an AI/ML Intern at Kemuri Technology, building the COE-AI marine garbage classification service integrating GPT-4o mini vision with production CMS pipelines.
 
