@@ -18,7 +18,7 @@ Multi-agent orchestration · Vision AI pipelines · FastAPI backends · LLM appl
 ---
 
 - 🛠️ Maintaining **MAP**, **SRS**, and **College Event System** — all shipped, now in upkeep mode
-- 🚀 Ex-AI/ML Intern @ **Kemuri Technology** — contributed to **COE-AI**, a production vision classification service on GPT-4o mini
+- 🚀 Contributed to **COE-AI** at **Kemuri Technology** — a production vision classification service on GPT-4o mini
 - 🌱 Learning **LangGraph agent patterns** and contributing to **tortoise-orm**, **pydantic**, **rich**
 - 💬 Ask me about **multi-agent systems**, **FastAPI architecture**, or **PR review workflows**
 - ⚡ Fun fact: I review every PR on my team projects myself — zero-ambiguity code review is non-negotiable
