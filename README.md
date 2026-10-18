@@ -28,7 +28,7 @@ Final-year B.E. AI & Data Science student at SRCOE, Pune. I fine-tune small lang
 
 ## LLM fine-tuning
 
-I trained two LoRA models on a free Colab T4 using Unsloth, and exported them for local inference.
+I trained two LoRA models myself using Unsloth, and exported them for local inference.
 
 **Health, skincare and nutrition assistant** · Qwen3.5-0.8B
 - Goal: a very small model that stays useful at low memory, for skincare, nutrition and general wellness questions (weight loss, weight gain).
@@ -36,9 +36,9 @@ I trained two LoRA models on a free Colab T4 using Unsloth, and exported them fo
 - Output: merged 16-bit weights plus a `Q4_K_M` GGUF that runs through Ollama on consumer hardware.
 
 **Constitution of India Q&A** · Qwen2.5-1.7B
-- LoRA fine-tune on Constitution question-answer data, trained on Colab with Unsloth.
+- LoRA fine-tune on Constitution question-answer data, trained with Unsloth.
 
-**Along the way:** I followed a RAG → LoRA → RAFT learning path, built a local RAG pipeline (Ollama, FAISS, EmbeddingGemma), and worked around hardware limits by moving training to Colab and serving models back to my local tools over a tunnel.
+**Along the way:** I followed a RAG → LoRA → RAFT learning path, built a local RAG pipeline (Ollama, FAISS, EmbeddingGemma), and run my models locally through Ollama.
 
 ---
 
